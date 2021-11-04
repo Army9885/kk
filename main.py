@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 INTENTS = discord.Intents.all()
 
 bot = commands.Bot(command_prefix=',' , intents=INTENTS)
-token = "ODk0OTU3MDM4MjU2Mzk4MzQ2.YVxjsQ.b5pbR8niVlBfDCHb7fs6y1W4TuM"
+
 
 @bot.event
 async def on_command_error(ctx,error):
